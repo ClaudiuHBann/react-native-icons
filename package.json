@@ -29,7 +29,8 @@
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
-    "!**/.*"
+    "!**/.*",
+    "windows"
   ],
   "scripts": {
     "example": "yarn workspace react-native-icons-example",
@@ -80,6 +81,7 @@
     "react": "19.0.0",
     "react-native": "0.78.0",
     "react-native-builder-bob": "^0.40.8",
+    "react-native-windows": "0.78.0",
     "release-it": "^17.10.0",
     "turbo": "^1.10.7",
     "typescript": "^5.8.3"
@@ -154,11 +156,23 @@
     "jsSrcsDir": "src",
     "android": {
       "javaPackageName": "com.icons"
+    },
+    "windows": {
+      "namespace": "ReactNativeIconsCodegen",
+      "outputDirectory": "windows/ReactNativeIcons/codegen",
+      "separateDataTypes": true
     }
   },
   "create-react-native-library": {
     "languages": "kotlin-objc",
     "type": "turbo-module",
     "version": "0.50.3"
+  },
+  "react-native-windows": {
+    "init-windows": {
+      "name": "ReactNativeIcons",
+      "namespace": "ReactNativeIcons",
+      "template": "cpp-lib"
+    }
   }
 }

@@ -11,14 +11,6 @@ npm install react-native-icons
 ## Usage
 
 
-```js
-import { multiply } from 'react-native-icons';
-
-// ...
-
-const result = multiply(3, 7);
-```
-
 
 ## Contributing
 
