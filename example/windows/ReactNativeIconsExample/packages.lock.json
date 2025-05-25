@@ -70,6 +70,16 @@
           "Microsoft.WindowsAppSDK": "[1.6.240923002, )",
           "boost": "[1.83.0, )"
         }
+      },
+      "rnsvg": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.ReactNative": "[0.78.0-Fabric, )",
+          "Microsoft.ReactNative.Cxx": "[0.78.0-Fabric, )",
+          "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
+          "Microsoft.WindowsAppSDK": "[1.6.240923002, )",
+          "boost": "[1.83.0, )"
+        }
       }
     },
     "native,Version=v0.0/win": {

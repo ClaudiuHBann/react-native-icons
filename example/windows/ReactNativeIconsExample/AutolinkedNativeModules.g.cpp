@@ -6,6 +6,9 @@
 // Includes from react-native-icons
 #include <winrt/ReactNativeIcons.h>
 
+// Includes from react-native-svg
+#include <winrt/RNSVG.h>
+
 namespace winrt::Microsoft::ReactNative
 {
 
@@ -13,6 +16,8 @@ void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collecti
 { 
     // IReactPackageProviders from react-native-icons
     packageProviders.Append(winrt::ReactNativeIcons::ReactPackageProvider());
+    // IReactPackageProviders from react-native-svg
+    packageProviders.Append(winrt::RNSVG::ReactPackageProvider());
 }
 
 }
