@@ -10,17 +10,17 @@
       },
       "Microsoft.ReactNative": {
         "type": "Direct",
-        "requested": "[0.78.0-Fabric, )",
-        "resolved": "0.78.0-Fabric",
-        "contentHash": "0GOjyO8DzjuBUQR0g+L2nCUGBepLMSJLGGT4y9w4NaXd8xyXBH0QHVWhRlTU8bwU2+ocgyB1Jlc6VF4dfIWCcg=="
+        "requested": "[0.78.5-Fabric, )",
+        "resolved": "0.78.5-Fabric",
+        "contentHash": "oN/M8Ob7LVMlCIgyshPWk50dKK8XJuA6pw0IFH8fP6v3+s2OEcvsH2dhxS5GMtJjffeP/y5sBMaY7p+bAKjf7A=="
       },
       "Microsoft.ReactNative.Cxx": {
         "type": "Direct",
-        "requested": "[0.78.0-Fabric, )",
-        "resolved": "0.78.0-Fabric",
-        "contentHash": "eZ6Pa8Wlngk5NNnvf3dK2xXxG8f5mWHTwAcyQc4hykskkjY8C11OKvsTHsXKZvJEP5U3dc/MDFaNNqME2MIC5w==",
+        "requested": "[0.78.5-Fabric, )",
+        "resolved": "0.78.5-Fabric",
+        "contentHash": "NpMlcXQiSo8wQiTQ34t9v/5fUcxibBSfVMaAEc7G0C72lIetijXjagufbwL8Q+z/1F3zEMH3LdmpUHTFc/+Kfw==",
         "dependencies": {
-          "Microsoft.ReactNative": "0.78.0-Fabric"
+          "Microsoft.ReactNative": "0.78.5-Fabric"
         }
       },
       "Microsoft.VCRTForwarders.140": {
