@@ -3,7 +3,7 @@
 #include "pch.h"
 #include "AutolinkedNativeModules.g.h"
 
-// Includes from react-native-icons
+// Includes from @hbannro/react-native-icons
 #include <winrt/ReactNativeIcons.h>
 
 // Includes from react-native-svg
@@ -14,7 +14,7 @@ namespace winrt::Microsoft::ReactNative
 
 void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collections::IVector<winrt::Microsoft::ReactNative::IReactPackageProvider> const& packageProviders)
 { 
-    // IReactPackageProviders from react-native-icons
+    // IReactPackageProviders from @hbannro/react-native-icons
     packageProviders.Append(winrt::ReactNativeIcons::ReactPackageProvider());
     // IReactPackageProviders from react-native-svg
     packageProviders.Append(winrt::RNSVG::ReactPackageProvider());

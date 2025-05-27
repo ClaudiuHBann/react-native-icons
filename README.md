@@ -1,11 +1,11 @@
-# react-native-icons
+# @hbannro/react-native-icons
 
 React Native Icons
 
 ## Installation
 
 ```sh
-npm install react-native-icons
+npm install @hbannro/react-native-icons
 ```
 
 ## Usage
