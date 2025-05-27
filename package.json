@@ -1,6 +1,6 @@
 {
   "name": "@hbannro/react-native-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native Icons",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
